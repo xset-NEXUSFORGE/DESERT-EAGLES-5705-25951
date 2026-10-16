@@ -1,0 +1,251 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+body {
+
+    line-height: 1.6;
+    background-color: #08780f;
+}
+
+header {
+
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    margin: 0 auto;
+
+}
+
+.logo  {
+
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff9f9;
+
+}
+
+.nav-links { 
+
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+
+}
+
+.nav-links a{
+
+    text-decoration: none;
+    color: #f5f1f1;
+    font-weight: bold;
+
+}
+
+#hero  {
+
+    padding-top: 2rem;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/portada.jpeg") no-repeat center center/cover;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 0 1rem;
+
+}
+
+#hero h1 {
+
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    
+
+
+}
+
+.cta-button {
+
+    background-color: #ffce0a;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.cta-button:hover {
+
+    background-color: #fff200;
+
+}
+
+#Redes {
+
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+#Redes h2 {
+
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #fff;
+
+
+}
+
+
+.social-grid {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+
+
+}
+
+.social-card {
+
+    background:  rgb(161, 146, 98);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.social-card img {
+
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+
+}
+
+.social-card h3 {
+
+    padding: 1rem;
+    color: #000000;
+
+}
+
+.social-card p {
+
+    padding: 0 1rem 1rem;
+    color: #fff;
+
+}
+
+.social-card .cta-button {
+
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #ffce0a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.social-card .cta-button:hover {
+
+    background-color: #fff200;
+
+}
+
+#Manuales{
+
+    
+    background-color: #929692;
+    padding: 4rem 2rem;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 0 1rem;
+}
+
+#Manuales h2 {
+
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    padding-top: 50px ;
+    
+
+}
+
+.description {
+
+    font-size: 18px;
+    line-height: 1.7;
+    color: #ffff;
+    text-align: center;
+    max-width: 800px;
+    margin:20px auto 35px;
+    font-weight: bold;
+
+}
+
+.btn-inicio{
+
+    margin-top: 80px;
+   display: inline-block;
+   padding: 12px 24px;
+   background: #F5b400;
+   color: #ffff;
+   text-decoration: none;
+   border-radius: 10px;
+   font-weight: bold;
+   margin-bottom: 30px;
+
+}
+
+.seccion-inicio{
+
+        background-color: #929692;
+        padding: 12px 24px;
+        text-align: center;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+footer {
+
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+
+}
+
+
